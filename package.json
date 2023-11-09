@@ -1,0 +1,49 @@
+{
+	"name": "memograph-server",
+	"version": "1.0.0",
+	"description": "The server of Memograph",
+	"main": "dist/src/app.js",
+	"scripts": {
+		"build": "tsc && tsc-alias",
+		"start": "node dist/app.js",
+		"setup": "node src/scripts/setup.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/syoker/memograph-server"
+	},
+	"type": "module",
+	"keywords": [
+		"NodeJS",
+		"Server",
+		"TypeScript"
+	],
+	"author": {
+		"name": "Syoker",
+		"email": "syoker@outlook.com",
+		"url": "https://syoker.vercel.app"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@types/bcrypt": "^5.0.1",
+		"@types/cors": "^2.8.15",
+		"@types/formidable": "^3.4.4",
+		"@typescript-eslint/eslint-plugin": "^6.9.0",
+		"@typescript-eslint/parser": "^6.9.0",
+		"eslint": "^8.52.0",
+		"eslint-plugin-react": "^7.33.2",
+		"tsc-alias": "^1.8.8",
+		"typescript": "^5.2.2"
+	},
+	"dependencies": {
+		"@types/express": "^4.17.20",
+		"@types/node": "^20.8.9",
+		"bcrypt": "^5.1.1",
+		"cors": "^2.8.5",
+		"dotenv": "^16.3.1",
+		"express": "^4.18.2",
+		"formidable": "^3.5.1",
+		"mysql2": "^3.6.2",
+		"sequelize": "^6.33.0"
+	}
+}
